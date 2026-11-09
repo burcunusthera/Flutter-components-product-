@@ -1,0 +1,38 @@
+name: flutter_components_product
+description: >-
+  NusThera Flutter bileşenleri. Özellik: Anasayfa Togg Components — 02 · Ana Sayfa Togg
+  tasarımının (Claude Design yapıtı 1794038488-dc06, NustheraDS v1.4.12) Flutter aktarımı
+  ve bileşen galerisi.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  fake_async: ^1.3.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/anasayfa_togg_components/icons/
+    - assets/anasayfa_togg_components/animations/
+    - assets/anasayfa_togg_components/images/
+    - assets/anasayfa_togg_components/images/deco/
+    - assets/anasayfa_togg_components/images/reminders/
+    - assets/anasayfa_togg_components/images/score_targets/
+  fonts:
+    # NustheraDS değişken yazı tipi (ds/nustherads/fonts/Outfit-wght.ttf); ağırlık FontVariation ile.
+    - family: Outfit
+      fonts:
+        - asset: assets/anasayfa_togg_components/fonts/Outfit-wght.ttf
