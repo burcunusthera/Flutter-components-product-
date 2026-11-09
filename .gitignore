@@ -27,3 +27,9 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
